@@ -2,7 +2,7 @@
 // Project: QAP3 Java
 // Date: 03/16/2025
 
-public abstract class Shape {
+public abstract class Shape implements Scalable {
     protected String name;
 
     // Constructor

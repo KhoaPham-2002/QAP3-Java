@@ -11,16 +11,21 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
-    // Compute area: A = πr²
     @Override
     public double getArea() {
         return Math.PI * radius * radius;
     }
 
-    // Compute perimeter: P = 2πr
     @Override
     public double getPerimeter() {
         return 2 * Math.PI * radius;
     }
+
+    // Implement scale method
+    @Override
+    public void scale(double factor) {
+        radius *= factor;
+    }
 }
+
 
