@@ -10,7 +10,6 @@ public class Demo4 {
         shapes[1] = new Ellipse(6.0, 4.0);
         shapes[2] = new Triangle(3.0, 4.0, 5.0);
         shapes[3] = new EquilateralTriangle(4.0);
-        shapes[4] = new Ellipse(7.0, 3.0);
 
         // Print original shapes
         System.out.println("=== Original Shapes ===");
